@@ -57,7 +57,7 @@ get_base_url() {
 	case $distro in
 		oracle) echo "http://download.oracle.com/otn-pub/java/jdk/" ;;
 		openjdk) echo "https://download.java.net/java/GA/jdk10/" ;;
-    private) echo "https://s3.amazonaws.com/traitify-install-files/java/" ;;
+    private) echo "https://s3.amazonaws.com/traitify-install-files/java" ;;
 		*) ;;
 	esac
 }
